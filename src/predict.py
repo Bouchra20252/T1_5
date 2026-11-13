@@ -8,6 +8,7 @@ Usage :
 import sys
 from functools import lru_cache
 from pathlib import Path
+from typing import Literal, TypedDict
 
 import joblib
 
@@ -21,8 +22,11 @@ def charger_modele():
         raise FileNotFoundError("models/sentiment.joblib absent : lancez python src/train.py")
     return joblib.load(MODELE)
 
+class PredictionResult(TypedDict):
+    label: Literal["positive", "negative"]
+    score: float
 
-def predict(texte: str) -> dict:
+def predict(texte: str) -> PredictionResult:
     """Renvoie {'label': 'positive'|'negative', 'score': float}."""
     if not isinstance(texte, str) or not texte.strip():
         raise ValueError("texte vide")

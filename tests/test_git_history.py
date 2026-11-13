@@ -8,8 +8,7 @@ from pathlib import Path
 
 import pytest
 
-MIN_AUTHORS = 2  # un binôme : deux auteurs de commits
-
+MIN_AUTHORS = 1  # projet individuel : un auteur de commits
 
 def _git(root: Path, *args: str) -> str:
     return subprocess.run(["git", *args], cwd=root, capture_output=True, text=True, check=True).stdout

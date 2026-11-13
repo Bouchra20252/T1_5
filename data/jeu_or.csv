@@ -1,0 +1,21 @@
+text,attendu,difficulte,erreur_connue
+"Livraison rapide et emballage impeccable, je recommande.",POSITIVE,facile,
+"Le produit fonctionne parfaitement depuis trois semaines.",POSITIVE,facile,
+"Service client réactif et solution trouvée rapidement.",POSITIVE,facile,Erreur connue : classé NEGATIVE
+"Très bonne qualité pour un prix raisonnable.",POSITIVE,facile,
+"Installation simple et résultat conforme à mes attentes.",POSITIVE,facile,
+"Je ne regrette absolument pas cet achat.",POSITIVE,negation,
+"Je pensais être déçu, mais finalement cette expérience est excellente.",POSITIVE,negation,
+"Le début était compliqué, pourtant le résultat final est satisfaisant.",POSITIVE,mixte,
+"Une petite merveille, même si la livraison a pris du retard.",POSITIVE,ironie,
+"Le logiciel est intuitif et les fonctionnalités sont vraiment utiles.",POSITIVE,autre_domaine,
+"Le colis est arrivé cassé et le vendeur ne répond jamais.",NEGATIVE,facile,
+"Qualité médiocre, le produit s'est arrêté après deux utilisations.",NEGATIVE,facile,
+"Je suis très déçu par ce service, une vraie perte de temps.",NEGATIVE,facile,Erreur connue : classé POSITIVE
+"Le prix est excessif pour un résultat aussi mauvais.",NEGATIVE,facile,
+"Ne fonctionne pas du tout malgré plusieurs tentatives.",NEGATIVE,negation,
+"Je ne recommande surtout pas ce produit.",NEGATIVE,negation,Erreur connue : classé POSITIVE
+"On m'avait promis une livraison rapide, j'attends toujours.",NEGATIVE,ironie,Erreur connue : classé POSITIVE
+"Le design est joli, mais l'application plante constamment.",NEGATIVE,mixte,
+"Le serveur tombe régulièrement et les sauvegardes échouent.",NEGATIVE,autre_domaine,
+"Une expérience catastrophique, exactement le contraire de ce qui était annoncé.",NEGATIVE,ironie,
